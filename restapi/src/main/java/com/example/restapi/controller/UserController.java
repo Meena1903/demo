@@ -11,9 +11,9 @@ import com.example.restapi.service.UserService;
 @RestController
 public class UserController {
 
+    @Autowired
     public UserService userService;
 
-    @Autowired
     public UserController(UserService userService) {
         this.userService = userService;
     }
