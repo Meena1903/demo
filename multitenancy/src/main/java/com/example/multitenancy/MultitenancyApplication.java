@@ -1,13 +1,13 @@
-package com.example.multidataset1;
+package com.example.multitenancy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Multidataset1Application {
+public class MultitenancyApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Multidataset1Application.class, args);
+		SpringApplication.run(MultitenancyApplication.class, args);
 	}
 
 }

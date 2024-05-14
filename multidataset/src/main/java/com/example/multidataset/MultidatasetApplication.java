@@ -1,13 +1,13 @@
-package com.example.multidataset1;
+package com.example.multidataset;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Multidataset1Application {
+public class MultidatasetApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Multidataset1Application.class, args);
+		SpringApplication.run(MultidatasetApplication.class, args);
 	}
 
 }
